@@ -12,16 +12,8 @@ const GENERAL_LINKS = [
   {
     iconKey: "pin",
     title: "Events",
-    desc: "Pop-up shop at Boho Chachkies!!!! July 24th & 25th, 12-7pm. 78 Nassau St, Toronto, ON, Kensington Market. Come hang out and shop!!!!",
+    desc: "Pop-up shop at Boho Chachkies!!!! August 7th & 8th, 12-7pm. 78 Nassau St, Toronto, ON, Kensington Market. Come hang out and shop!!!!",
     url: "https://www.google.com/maps/place/Boho+Chachkies/@43.6552235,-79.4056697,17z/data=!3m1!4b1!4m6!3m5!1s0x882b359fa27bc75b:0x2a338e100aca6423!8m2!3d43.6552235!4d-79.4030948!16s%2Fg%2F11vj8qq80z?entry=tts&g_ep=EgoyMDI2MDYwMy4xIPu8ASoASAFQAw%3D%3D&skid=5435545f-95fb-40e9-b437-398e45d8d127",
-    more: "Pop-up shop at Boho Chachkies!!!! July 24th & 25th, 12-7pm. 78 Nassau St, Toronto, ON, Kensington Market. Come hang out and shop!!!!",
-    moreInline: true,
-  },
-  {
-    iconKey: "sale",
-    title: "Upcoming Whatnot $5 Sale",
-    url: "https://www.whatnot.com/live/204c7c0e-60a9-481c-a7a6-6a27f6ef2df9?app=web&sender_id=61933047&invitedBy=starkittyvintage&sharing_channel=copyLink",
-    share: true,
   },
   {
     iconKey: "shop",
