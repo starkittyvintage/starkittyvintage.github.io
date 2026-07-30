@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>starkittyvintage — Links</title>
+<meta name="description" content="starkittyvintage — curated vintage. Shop links and socials." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-overlay" aria-hidden="true"></div>
+
+  <button id="share-btn" class="share-btn" type="button" aria-label="Copy link to this page" title="Copy link">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>
+  </button>
+  <span id="share-toast" class="share-toast" role="status" aria-live="polite"></span>
+
+  <main class="page">
+    <header class="profile">
+      <img class="avatar" src="images/logo-white.png" alt="starkittyvintage logo" />
+      <h1 class="name">@starkittyvintage</h1>
+      <p class="bio">curated vintage</p>
+
+      <nav class="socials" id="socials" aria-label="Social links"></nav>
+    </header>
+
+    <section class="section" aria-labelledby="links-heading">
+      <div id="links" class="link-list"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
